@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F165E7A28111DC000C37684 /* SpotifyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 8F165E7928111DC000C37684 /* SpotifyAPI */; };
+		8F5B376F28302D7F0099C67C /* GetSpotifyURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5B376E28302D7E0099C67C /* GetSpotifyURL.swift */; };
+		8F69B943281CA57100DAA2F0 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69B942281CA57100DAA2F0 /* FriendList.swift */; };
+		8F69B947281CA59600DAA2F0 /* FriendRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69B946281CA59600DAA2F0 /* FriendRow.swift */; };
+		8F69B949281CA5A500DAA2F0 /* GetFriendActivityBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69B948281CA5A500DAA2F0 /* GetFriendActivityBackend.swift */; };
+		8F69B94B281CA5AC00DAA2F0 /* GetTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69B94A281CA5AC00DAA2F0 /* GetTime.swift */; };
+		8F69B94D281CA5B500DAA2F0 /* JSONStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69B94C281CA5B500DAA2F0 /* JSONStructs.swift */; };
+		8F69B951281CA5C700DAA2F0 /* GlobalURLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69B950281CA5C700DAA2F0 /* GlobalURLOpener.swift */; };
+		8F7B9482281B292B003F8A2C /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B9481281B292B003F8A2C /* Sidebar.swift */; };
 		8F93BFD728097DAB00B7B20B /* SpotPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F93BFD628097DAB00B7B20B /* SpotPlayerApp.swift */; };
 		8F93BFD928097DAB00B7B20B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F93BFD828097DAB00B7B20B /* ContentView.swift */; };
 		8F93BFDB28097DAC00B7B20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F93BFDA28097DAC00B7B20B /* Assets.xcassets */; };
@@ -14,6 +23,17 @@
 		8F93BFE928097DAC00B7B20B /* SpotPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F93BFE828097DAC00B7B20B /* SpotPlayerTests.swift */; };
 		8F93BFF328097DAC00B7B20B /* SpotPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F93BFF228097DAC00B7B20B /* SpotPlayerUITests.swift */; };
 		8F93BFF528097DAC00B7B20B /* SpotPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F93BFF428097DAC00B7B20B /* SpotPlayerUITestsLaunchTests.swift */; };
+		8F9D9163280AB4D600EACA18 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9D9162280AB4D600EACA18 /* Spot.swift */; };
+		8F9D9166280AB83D00EACA18 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 8F9D9165280AB83D00EACA18 /* KeychainAccess */; };
+		8F9EDC4B2809BF9E00DEC9EF /* SpotifyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 8F9EDC4A2809BF9E00DEC9EF /* SpotifyAPI */; };
+		8FB98D37283252D0009EF137 /* TextLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB98D36283252D0009EF137 /* TextLink.swift */; };
+		8FB98D3A2832B0E7009EF137 /* UserPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB98D392832B0E7009EF137 /* UserPopover.swift */; };
+		8FB98D3C2832B0EF009EF137 /* DevicesPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB98D3B2832B0EF009EF137 /* DevicesPopover.swift */; };
+		8FB98D3E2832B0F7009EF137 /* QueuePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB98D3D2832B0F7009EF137 /* QueuePopover.swift */; };
+		8FD56A3C28118CAB005B3A8E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8FD56A3B28118CAB005B3A8E /* Kingfisher */; };
+		8FDDE6EC281CA2770048AC0F /* StackNavigationView in Frameworks */ = {isa = PBXBuildFile; productRef = 8FDDE6EB281CA2770048AC0F /* StackNavigationView */; };
+		8FFAE7CD282BE4C000EF9D19 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 8FFAE7CC282BE4C000EF9D19 /* Introspect */; };
+		8FFAE7CF282BF39800EF9D19 /* BottomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFAE7CE282BF39800EF9D19 /* BottomPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F5B376E28302D7E0099C67C /* GetSpotifyURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSpotifyURL.swift; sourceTree = "<group>"; };
+		8F69B942281CA57100DAA2F0 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		8F69B946281CA59600DAA2F0 /* FriendRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRow.swift; sourceTree = "<group>"; };
+		8F69B948281CA5A500DAA2F0 /* GetFriendActivityBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFriendActivityBackend.swift; sourceTree = "<group>"; };
+		8F69B94A281CA5AC00DAA2F0 /* GetTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTime.swift; sourceTree = "<group>"; };
+		8F69B94C281CA5B500DAA2F0 /* JSONStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructs.swift; sourceTree = "<group>"; };
+		8F69B950281CA5C700DAA2F0 /* GlobalURLOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalURLOpener.swift; sourceTree = "<group>"; };
+		8F7B9481281B292B003F8A2C /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		8F93BFD328097DAB00B7B20B /* SpotPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F93BFD628097DAB00B7B20B /* SpotPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPlayerApp.swift; sourceTree = "<group>"; };
 		8F93BFD828097DAB00B7B20B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +73,12 @@
 		8F93BFEE28097DAC00B7B20B /* SpotPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F93BFF228097DAC00B7B20B /* SpotPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPlayerUITests.swift; sourceTree = "<group>"; };
 		8F93BFF428097DAC00B7B20B /* SpotPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F9D9162280AB4D600EACA18 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		8FB98D36283252D0009EF137 /* TextLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLink.swift; sourceTree = "<group>"; };
+		8FB98D392832B0E7009EF137 /* UserPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPopover.swift; sourceTree = "<group>"; };
+		8FB98D3B2832B0EF009EF137 /* DevicesPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesPopover.swift; sourceTree = "<group>"; };
+		8FB98D3D2832B0F7009EF137 /* QueuePopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuePopover.swift; sourceTree = "<group>"; };
+		8FFAE7CE282BF39800EF9D19 /* BottomPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD56A3C28118CAB005B3A8E /* Kingfisher in Frameworks */,
+				8FFAE7CD282BE4C000EF9D19 /* Introspect in Frameworks */,
+				8F9D9166280AB83D00EACA18 /* KeychainAccess in Frameworks */,
+				8F165E7A28111DC000C37684 /* SpotifyAPI in Frameworks */,
+				8FDDE6EC281CA2770048AC0F /* StackNavigationView in Frameworks */,
+				8F9EDC4B2809BF9E00DEC9EF /* SpotifyAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F5B376D28302D6B0099C67C /* SpotifyURI */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B376E28302D7E0099C67C /* GetSpotifyURL.swift */,
+			);
+			path = SpotifyURI;
+			sourceTree = "<group>";
+		};
+		8F69B944281CA57E00DAA2F0 /* FriendActivity */ = {
+			isa = PBXGroup;
+			children = (
+				8F69B942281CA57100DAA2F0 /* FriendList.swift */,
+				8F69B946281CA59600DAA2F0 /* FriendRow.swift */,
+			);
+			path = FriendActivity;
+			sourceTree = "<group>";
+		};
+		8F69B945281CA58500DAA2F0 /* FriendActivity */ = {
+			isa = PBXGroup;
+			children = (
+				8F69B948281CA5A500DAA2F0 /* GetFriendActivityBackend.swift */,
+				8F69B94A281CA5AC00DAA2F0 /* GetTime.swift */,
+				8F69B94C281CA5B500DAA2F0 /* JSONStructs.swift */,
+				8F69B950281CA5C700DAA2F0 /* GlobalURLOpener.swift */,
+			);
+			path = FriendActivity;
+			sourceTree = "<group>";
+		};
 		8F93BFCA28097DAB00B7B20B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +147,7 @@
 				8F93BFE728097DAC00B7B20B /* SpotPlayerTests */,
 				8F93BFF128097DAC00B7B20B /* SpotPlayerUITests */,
 				8F93BFD428097DAB00B7B20B /* Products */,
+				8FB98D612834258F009EF137 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +164,10 @@
 		8F93BFD528097DAB00B7B20B /* SpotPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				8FD56A3728118BFE005B3A8E /* Resources */,
+				8FD56A3528118BAE005B3A8E /* Views */,
+				8F9D9162280AB4D600EACA18 /* Spot.swift */,
 				8F93BFD628097DAB00B7B20B /* SpotPlayerApp.swift */,
-				8F93BFD828097DAB00B7B20B /* ContentView.swift */,
 				8F93BFDA28097DAC00B7B20B /* Assets.xcassets */,
 				8F93BFDF28097DAC00B7B20B /* SpotPlayer.entitlements */,
 				8F93BFDC28097DAC00B7B20B /* Preview Content */,
@@ -129,6 +200,45 @@
 			path = SpotPlayerUITests;
 			sourceTree = "<group>";
 		};
+		8FB98D382832B0D5009EF137 /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				8FB98D392832B0E7009EF137 /* UserPopover.swift */,
+				8FB98D3B2832B0EF009EF137 /* DevicesPopover.swift */,
+				8FB98D3D2832B0F7009EF137 /* QueuePopover.swift */,
+			);
+			path = Popovers;
+			sourceTree = "<group>";
+		};
+		8FB98D612834258F009EF137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FD56A3528118BAE005B3A8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FB98D382832B0D5009EF137 /* Popovers */,
+				8F7B9481281B292B003F8A2C /* Sidebar.swift */,
+				8F69B944281CA57E00DAA2F0 /* FriendActivity */,
+				8F93BFD828097DAB00B7B20B /* ContentView.swift */,
+				8FFAE7CE282BF39800EF9D19 /* BottomPlayer.swift */,
+				8FB98D36283252D0009EF137 /* TextLink.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FD56A3728118BFE005B3A8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F5B376D28302D6B0099C67C /* SpotifyURI */,
+				8F69B945281CA58500DAA2F0 /* FriendActivity */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +255,14 @@
 			dependencies = (
 			);
 			name = SpotPlayer;
+			packageProductDependencies = (
+				8F9EDC4A2809BF9E00DEC9EF /* SpotifyAPI */,
+				8F9D9165280AB83D00EACA18 /* KeychainAccess */,
+				8F165E7928111DC000C37684 /* SpotifyAPI */,
+				8FD56A3B28118CAB005B3A8E /* Kingfisher */,
+				8FDDE6EB281CA2770048AC0F /* StackNavigationView */,
+				8FFAE7CC282BE4C000EF9D19 /* Introspect */,
+			);
 			productName = SpotPlayer;
 			productReference = 8F93BFD328097DAB00B7B20B /* SpotPlayer.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +335,14 @@
 				Base,
 			);
 			mainGroup = 8F93BFCA28097DAB00B7B20B;
+			packageReferences = (
+				8F9EDC492809BF9E00DEC9EF /* XCRemoteSwiftPackageReference "SpotifyAPI" */,
+				8F9D9164280AB83D00EACA18 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				8F165E7828111DC000C37684 /* XCRemoteSwiftPackageReference "SpotifyAPI" */,
+				8FD56A3A28118CAB005B3A8E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				8FDDE6EA281CA2770048AC0F /* XCRemoteSwiftPackageReference "StackNavigationView" */,
+				8FFAE7CB282BE4C000EF9D19 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = 8F93BFD428097DAB00B7B20B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +385,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F69B94B281CA5AC00DAA2F0 /* GetTime.swift in Sources */,
 				8F93BFD928097DAB00B7B20B /* ContentView.swift in Sources */,
+				8FB98D3A2832B0E7009EF137 /* UserPopover.swift in Sources */,
+				8F69B947281CA59600DAA2F0 /* FriendRow.swift in Sources */,
+				8F69B94D281CA5B500DAA2F0 /* JSONStructs.swift in Sources */,
+				8FB98D3C2832B0EF009EF137 /* DevicesPopover.swift in Sources */,
+				8F69B951281CA5C700DAA2F0 /* GlobalURLOpener.swift in Sources */,
 				8F93BFD728097DAB00B7B20B /* SpotPlayerApp.swift in Sources */,
+				8F9D9163280AB4D600EACA18 /* Spot.swift in Sources */,
+				8FFAE7CF282BF39800EF9D19 /* BottomPlayer.swift in Sources */,
+				8F7B9482281B292B003F8A2C /* Sidebar.swift in Sources */,
+				8F5B376F28302D7F0099C67C /* GetSpotifyURL.swift in Sources */,
+				8FB98D37283252D0009EF137 /* TextLink.swift in Sources */,
+				8FB98D3E2832B0F7009EF137 /* QueuePopover.swift in Sources */,
+				8F69B949281CA5A500DAA2F0 /* GetFriendActivityBackend.swift in Sources */,
+				8F69B943281CA57100DAA2F0 /* FriendList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +440,7 @@
 		8F93BFF628097DAC00B7B20B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -352,6 +493,8 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -360,6 +503,7 @@
 		8F93BFF728097DAC00B7B20B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -405,6 +549,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -427,6 +573,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aviandabdul.SpotPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +599,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aviandabdul.SpotPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -568,6 +716,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F165E7828111DC000C37684 /* XCRemoteSwiftPackageReference "SpotifyAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Peter-Schorn/SpotifyAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8F9D9164280AB83D00EACA18 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8F9EDC492809BF9E00DEC9EF /* XCRemoteSwiftPackageReference "SpotifyAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Peter-Schorn/SpotifyAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8FD56A3A28118CAB005B3A8E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8FDDE6EA281CA2770048AC0F /* XCRemoteSwiftPackageReference "StackNavigationView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lbrndnr/StackNavigationView.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8FFAE7CB282BE4C000EF9D19 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F165E7928111DC000C37684 /* SpotifyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F9EDC492809BF9E00DEC9EF /* XCRemoteSwiftPackageReference "SpotifyAPI" */;
+			productName = SpotifyAPI;
+		};
+		8F9D9165280AB83D00EACA18 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F9D9164280AB83D00EACA18 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		8F9EDC4A2809BF9E00DEC9EF /* SpotifyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F9EDC492809BF9E00DEC9EF /* XCRemoteSwiftPackageReference "SpotifyAPI" */;
+			productName = SpotifyAPI;
+		};
+		8FD56A3B28118CAB005B3A8E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FD56A3A28118CAB005B3A8E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		8FDDE6EB281CA2770048AC0F /* StackNavigationView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FDDE6EA281CA2770048AC0F /* XCRemoteSwiftPackageReference "StackNavigationView" */;
+			productName = StackNavigationView;
+		};
+		8FFAE7CC282BE4C000EF9D19 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FFAE7CB282BE4C000EF9D19 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F93BFCB28097DAB00B7B20B /* Project object */;
 }
