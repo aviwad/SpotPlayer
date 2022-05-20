@@ -7,6 +7,20 @@
 
 import SwiftUI
 //import Introspect
+struct MyButtonStyle: ButtonStyle {
+
+  func makeBody(configuration: Self.Configuration) -> some View {
+    configuration.label
+          .foregroundColor(configuration.isPressed ? Color.gray : Color.white)
+      //.padding()
+      //.foregroundColor(.white)
+      
+      
+  }
+
+}
+
+
 
 struct BottomPlayer: View {
     var body: some View {
@@ -47,6 +61,7 @@ struct BottomPlayerLeft: View {
 }
 
 struct BottomPlayerCenter: View {
+    @State var isPlay = false;
     var body: some View {
         VStack {
             HStack(spacing: 13) {
@@ -61,12 +76,20 @@ struct BottomPlayerCenter: View {
                 }
                 .buttonStyle(.borderless)
                 Button {
+                    isPlay.toggle()
                 } label: {
-                    Image(systemName: "play.circle.fill")
-                        .font(.system(size: 35))
-                        .foregroundColor(.white)
+                    if (isPlay){
+                        Image(systemName: "play.circle.fill")
+                            .font(.system(size: 35))
+                    }
+                    else {
+                        Image(systemName: "pause.circle.fill")
+                            .font(.system(size: 35))
+                    }
+                        //.foregroundColor(.gray)
                 }
-                .buttonStyle(.borderless)
+                //.buttonStyle(.borderless)
+                .buttonStyle(MyButtonStyle())
                 Button {
                 } label: {
                     Image(systemName: "forward.end.fill")
